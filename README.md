@@ -1,6 +1,6 @@
 # Calendar Application
 
-This is a React-based Calendar Application that allows users to view a calendar, add, edit, and delete events. The application also includes functionality for filtering events by category and supports multiple views through React Router.
+This is a React-based Calendar Application that allows users to view a calendar, add, edit, and delete events. The application also includes functionality for filtering events by category and supports responsive design for different devices.
 
 ## Features
 
