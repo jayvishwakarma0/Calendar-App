@@ -74,6 +74,10 @@
     cursor: pointer;
     text-shadow: 0.5rem 1rem rgba(0, 0, 0, 0.2);
   }
+
+  .other-day:hover{
+    background-color: rgb(108, 108, 202);
+  }
   
   .current-day {
     background-color: #c97f1a;

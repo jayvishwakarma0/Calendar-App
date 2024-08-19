@@ -19,6 +19,7 @@
     align-items: center;
     margin-top: 2rem;
     position: relative;
+    cursor: pointer;
   }
   
   .event-date-wrapper {

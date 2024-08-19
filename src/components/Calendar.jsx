@@ -73,7 +73,7 @@ const Calendar = ({ daysOfWeek, monthsOfYear }) => {
               currentMonth === currentDate.getMonth() &&
               currentYear === currentDate.getFullYear()
                 ? "current-day"
-                : ""
+                : "other-day"
             }
             onClick={() => handleDayClick(day + 1)}
           >
