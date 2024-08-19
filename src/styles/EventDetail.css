@@ -1,0 +1,169 @@
+
+.event-detail {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    margin: 20px;
+    max-width: 600px;
+    width: 90%;
+    font-family: Arial, sans-serif;
+  }
+  
+  .event-detail-header {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .event-detail-header h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .event-detail-date-time,
+  .event-detail-category,
+  .event-detail-description {
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .event-detail-date-time {
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+  
+  }
+
+  .event-date{
+    color: #333;
+  }
+  
+  .event-detail-category strong,
+  .event-detail-description strong {
+    font-weight: bold;
+  }
+  
+  .event-detail-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .edit-btn,
+  .delete-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: #fff;
+  }
+  
+  .close-btn {
+    position: absolute;
+    top: 10%;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #888;
+  }
+  
+  .close-btn:hover {
+    color: #333;
+  }
+  @media screen and (max-width: 992px) {
+    .close-btn{
+        top:60%;
+        right: 10px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .event-detail {
+      padding: 10px;
+      margin: 15px;
+      max-width: 90%;
+    }
+  
+    .event-detail-header h2 {
+      font-size: 20px;
+    }
+  
+    .event-detail-date-time,
+    .event-detail-category,
+    .event-detail-description {
+      font-size: 14px;
+    }
+  
+    .edit-btn,
+    .delete-btn {
+      font-size: 14px;
+      padding: 8px 15px;
+    }
+    .close-btn{
+        top:60%;
+        right: 15px;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .event-detail {
+      padding: 10px;
+      margin: 10px;
+      max-width: 100%;
+    }
+  
+    .event-detail-header h2 {
+      font-size: 18px;
+    }
+  
+    .event-detail-date-time,
+    .event-detail-category,
+    .event-detail-description {
+      font-size: 12px;
+    }
+  
+    .event-detail-date-time {
+      flex-direction: column;
+    }
+  
+    .edit-btn,
+    .delete-btn {
+      font-size: 12px;
+      padding: 5px 10px;
+    }
+  
+    .event-detail-buttons {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  
+    .edit-btn,
+    .delete-btn {
+      margin-bottom: 10px;
+    }
+
+    .close-btn{
+        top:54%;
+        right: 10px;
+    }
+  }
+  @media screen and (max-width:380px){
+    .close-btn{
+        top:67%;
+        right: 10px;
+    }
+  }
+  

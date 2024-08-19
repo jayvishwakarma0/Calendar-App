@@ -1,0 +1,116 @@
+.events {
+    width: 60%;
+    height: 100%;
+    padding: 3rem 0;
+    overflow-y: auto;
+  }
+  
+  .events::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .event {
+    width: 100%;
+    height: 6rem;
+    background-color: #00a3ff;
+    padding: 1.5rem 0;
+    border-radius: 1rem;
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    position: relative;
+  }
+  
+  .event-date-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    border-right: 0.1rem solid rgba(255, 255, 255, 0.5);
+  }
+  
+  .event-date {
+    font-size: clamp(1rem, 1cqi, 1.2rem);
+    color: #000;
+    text-align: center;
+  }
+  
+  .event-time {
+    font-size: clamp(1.3rem, 1cqi, 1.6rem);
+    line-height: 3rem;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .event-text {
+    font-size: clamp(1.2rem, 1cqi, 1.4rem);
+    line-height: 2rem;
+    color: #fff;
+    width: 75%;
+    padding: 0 3rem 0 1rem;
+    overflow-wrap: break-word;
+  }
+  
+  .event-buttons {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+  }
+  
+  .event-buttons i {
+    font-size: 1.6rem;
+    cursor: pointer;
+    color: #fff;
+  }
+  
+  .event-category{
+    margin-left: 0.8rem;
+    font-size: 1.5rem;
+  }
+  .event-category label {
+    color: #fff;
+    font-size: 1.1rem;
+  }
+  
+  .event-filter label {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+
+  @media (max-width: 1200px) {
+    .events {
+      width: 45%;
+      padding: 2rem 0;
+    }
+
+  }
+  
+  @media (max-width: 992px) {
+    .events {
+      width: 100%;
+    }
+  
+  }
+  
+  
+  @media (max-width: 576px) {
+    .event {
+      height: 6rem;
+    }
+  
+    .event-date {
+      font-size: 0.9rem;
+    }
+  
+    .event-time {
+      font-size: 1.2rem;
+    }
+  
+    .event-text {
+      font-size: 1rem;
+    }
+  }
